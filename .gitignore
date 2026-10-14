@@ -1,0 +1,25 @@
+# Build & Maven
+target/
+*.class
+# Quarkus
+.quarkus/
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+# IDE & Editor
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+# Logs & JVM crash dumps
+*.log
+logs/
+hs_err_pid*
+replay_pid*
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
